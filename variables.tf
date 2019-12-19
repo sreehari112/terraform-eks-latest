@@ -14,7 +14,7 @@ variable "region" {
 
 variable "profile"{
 description = "Enter the profile"
-default = "sriahri"
+default = "shiva"
 }
 
 variable "instance_type"{
@@ -24,12 +24,12 @@ variable "instance_type"{
 
 variable "instance_ami"{
   description = "Choose ami for instance"
-  default = "ami-0c322300a1dd5dc79"
+  default = "ami-*******"
 }
 
 variable "instance_key"{
   description = "provide the key pair"
-  default = "harieks"
+  default = "h******"
 }
 
 variable "server_name"{
